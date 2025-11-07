@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MoodTunes - Music Mood Recommendation</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Animate.css for animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-glass">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="fas fa-music"></i> MoodTunes</a>
+            <div class="ms-auto">
+                <div class="creator-badge">
+                    Created by Tanish Ranjan <i class="fas fa-code"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section animate__animated animate__fadeIn">
+        <div class="container">
+            <h1 class="text-center">How are you feeling today?</h1>
+            <p class="text-center lead">Let the music match your mood</p>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mt-4">
+        <div class="floating-waves"></div>
+        
+        <!-- Mood Cards Container -->
+        <div class="row g-4" id="moodContainer">
+            <!-- Happy Mood -->
+            <div class="col-md-4">
+                <div class="mood-card happy animate__animated animate__fadeIn">
+                    <div class="card-body">
+                        <h3>Happy</h3>
+                        <p>Upbeat and energetic tunes to keep your spirits high!</p>
+                        <a href="https://open.spotify.com/playlist/37i9dQZF1EIgG2NEOhqsD7?si=ijZXL755RFS5HKXNIhzt2A&pi=VKFyRUfdSkCqU" class="btn btn-light" target="_blank">Listen Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Calm Mood -->
+            <div class="col-md-4">
+                <div class="mood-card calm animate__animated animate__fadeIn">
+                    <div class="card-body">
+                        <h3>Calm</h3>
+                        <p>Peaceful melodies to help you relax and unwind.</p>
+                        <a href="https://open.spotify.com/playlist/37i9dQZF1EIfTmpqlGn32s?si=fPYSlAMmRy-KocYVBi9QNw&pi=5SeKqxW6REqcu" class="btn btn-light" target="_blank">Listen Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Energetic Mood -->
+            <div class="col-md-4">
+                <div class="mood-card energetic animate__animated animate__fadeIn">
+                    <div class="card-body">
+                        <h3>Energetic</h3>
+                        <p>High-energy tracks to boost your motivation!</p>
+                        <a href="https://open.spotify.com/playlist/37i9dQZF1EIcVD7Tg8a0MY?si=ftfVBJBDR_eLD29F7Mf1vQ&pi=Z6KMbw5sQzaHV" class="btn btn-light" target="_blank">Listen Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
